@@ -12,6 +12,7 @@ public class terminalService {
         return switch (comando){
             case "help", "ajuda" -> new terminalResponse("help: mostra ajuda");
             case "penis" -> new terminalResponse("safado");
+            case "register" -> new terminalResponse("para registrar, use: 'register user@pass'");
             default -> new terminalResponse("comando não encontrado.");
         };
 
