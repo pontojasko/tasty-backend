@@ -1,11 +1,10 @@
 package dev.jasko.tty.controllers;
 
-import dev.jasko.tty.DTOs.terminalResponse;
+import dev.jasko.tty.DTOs.terminalRequest;
 import dev.jasko.tty.services.terminalService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
-import dev.jasko.tty.DTOs.terminalRequest;
 
 @CrossOrigin
 @RestController
