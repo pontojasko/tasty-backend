@@ -1,6 +1,6 @@
 package dev.jasko.tty.controllers;
 
-import dev.jasko.tty.DTOs.terminalRequest;
+import dev.jasko.tty.DTOs.terminal.terminalRequest;
 import dev.jasko.tty.services.terminalService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
